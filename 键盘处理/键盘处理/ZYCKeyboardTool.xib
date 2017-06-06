@@ -9,29 +9,33 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="YOD-aP-93L">
+        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="YOD-aP-93L" customClass="ZYCKeyboardTool">
             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
             <items>
                 <barButtonItem title="上一项" id="rK3-lf-8dD">
                     <connections>
-                        <action selector="previous:" destination="-1" id="RvB-c5-rsb"/>
+                        <action selector="previous:" destination="YOD-aP-93L" id="4XL-1V-VgU"/>
                     </connections>
                 </barButtonItem>
                 <barButtonItem title="下一项" id="lH3-8K-cwH">
                     <connections>
-                        <action selector="next:" destination="-1" id="WVE-5c-QF0"/>
+                        <action selector="next:" destination="YOD-aP-93L" id="upk-FQ-UIv"/>
                     </connections>
                 </barButtonItem>
                 <barButtonItem style="plain" systemItem="flexibleSpace" id="LEz-XU-ZoI"/>
                 <barButtonItem title="完成" id="Owj-hh-73O">
                     <connections>
-                        <action selector="done:" destination="-1" id="RmI-bF-SZK"/>
+                        <action selector="done:" destination="YOD-aP-93L" id="qMQ-7K-nE1"/>
                     </connections>
                 </barButtonItem>
             </items>
+            <connections>
+                <outlet property="nextItem" destination="lH3-8K-cwH" id="6w8-dB-ZVX"/>
+                <outlet property="previousItem" destination="rK3-lf-8dD" id="KKa-mT-YKc"/>
+            </connections>
             <point key="canvasLocation" x="-35" y="122"/>
         </toolbar>
     </objects>

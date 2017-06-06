@@ -16,6 +16,7 @@
 		126C2D5F1EE6D93A009A2C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126C2D5D1EE6D93A009A2C5F /* LaunchScreen.storyboard */; };
 		126C2D6A1EE6D93A009A2C5F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C2D691EE6D93A009A2C5F /* ____UITests.m */; };
 		126C2D751EE6F2ED009A2C5F /* ZYCKeyboardTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126C2D741EE6F2ED009A2C5F /* ZYCKeyboardTool.xib */; };
+		126C2D781EE6FCB8009A2C5F /* ZYCKeyboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C2D771EE6FCB8009A2C5F /* ZYCKeyboardTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		126C2D691EE6D93A009A2C5F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		126C2D6B1EE6D93A009A2C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		126C2D741EE6F2ED009A2C5F /* ZYCKeyboardTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYCKeyboardTool.xib; sourceTree = "<group>"; };
+		126C2D761EE6FCB8009A2C5F /* ZYCKeyboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCKeyboardTool.h; sourceTree = "<group>"; };
+		126C2D771EE6FCB8009A2C5F /* ZYCKeyboardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCKeyboardTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				126C2D521EE6D93A009A2C5F /* ViewController.h */,
 				126C2D531EE6D93A009A2C5F /* ViewController.m */,
 				126C2D551EE6D93A009A2C5F /* Main.storyboard */,
+				126C2D761EE6FCB8009A2C5F /* ZYCKeyboardTool.h */,
+				126C2D771EE6FCB8009A2C5F /* ZYCKeyboardTool.m */,
 				126C2D741EE6F2ED009A2C5F /* ZYCKeyboardTool.xib */,
 				126C2D5B1EE6D93A009A2C5F /* Assets.xcassets */,
 				126C2D5D1EE6D93A009A2C5F /* LaunchScreen.storyboard */,
@@ -221,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				126C2D541EE6D93A009A2C5F /* ViewController.m in Sources */,
+				126C2D781EE6FCB8009A2C5F /* ZYCKeyboardTool.m in Sources */,
 				126C2D5A1EE6D93A009A2C5F /* ____.xcdatamodeld in Sources */,
 				126C2D511EE6D93A009A2C5F /* AppDelegate.m in Sources */,
 				126C2D4E1EE6D93A009A2C5F /* main.m in Sources */,
